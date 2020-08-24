@@ -21,12 +21,9 @@ public class Pos extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        //Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        FXMLLoader loader = new FXMLLoader(Main.class.getResource("FXMLDocument.fxml"));
-        
-        AnchorPane pane = loader.load();
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
 
-        Scene scene = new Scene(pane);
+        Scene scene = new Scene(root);
         
         stage.setScene(scene);
         stage.show();
