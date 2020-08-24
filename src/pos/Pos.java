@@ -24,7 +24,7 @@ public class Pos extends Application {
         //Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         FXMLLoader loader = new FXMLLoader(Main.class.getResource("FXMLDocument.fxml"));
         
-         AnchorPane pane = loader.load();
+        AnchorPane pane = loader.load();
 
         Scene scene = new Scene(pane);
         
