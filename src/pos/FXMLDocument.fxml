@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1055.0" styleClass="parent" stylesheets="@styleSheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1055.0" styleClass="parent" stylesheets="@styleSheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pos.FXMLDocumentController">
     <children>
         <VBox prefHeight="600.0" prefWidth="314.0" styleClass="sidebar">
             <children>
@@ -157,7 +157,7 @@
                   </Label>
                   <HBox prefHeight="52.0" prefWidth="287.0">
                      <children>
-                        <ImageView fitHeight="52.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true" />
+                        
                         <VBox prefHeight="47.0" prefWidth="100.0">
                            <children>
                               <Label prefHeight="18.0" prefWidth="72.0" text="Andrew" textFill="#c3bebe" />
@@ -178,7 +178,7 @@
                   </HBox>
                   <HBox layoutX="10.0" layoutY="36.0" prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <ImageView fitHeight="46.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true" />
+                       
                         <VBox prefHeight="63.0" prefWidth="146.0">
                            <children>
                               <Label prefHeight="18.0" prefWidth="72.0" text="Laila" textFill="#c3bebe">
@@ -203,7 +203,7 @@
                   </HBox>
                   <HBox layoutX="10.0" layoutY="136.0" prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <ImageView fitHeight="46.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true" />
+                        
                         <VBox prefHeight="61.0" prefWidth="100.0">
                            <children>
                               <Label prefHeight="18.0" prefWidth="72.0" text="Ramesh" textFill="#c3bebe" />
@@ -221,7 +221,7 @@
                   </HBox>
                   <HBox layoutX="10.0" layoutY="206.0" prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <ImageView fitHeight="46.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true" />
+                        
                         <VBox prefHeight="59.0" prefWidth="100.0">
                            <children>
                               <Label text=".NetDeveloper" textFill="#c3bebe">
