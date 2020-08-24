@@ -3,7 +3,6 @@
 <?import com.gluonhq.charm.glisten.control.Icon?>
 <?import com.gluonhq.charm.glisten.control.ProgressIndicator?>
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.DropShadow?>
@@ -29,7 +28,7 @@
                 </Label>
                 <HBox>
                     <children>
-                        <Icon content="SEARCH" prefHeight="23.0" prefWidth="31.0" >
+                        <Icon content="SEARCH" prefHeight="23.0" prefWidth="31.0">
                             <padding>
                                 <Insets left="10.0" />
                             </padding>
@@ -46,7 +45,7 @@
                 </HBox>
                 <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0" styleClass="btns" stylesheets="@styleSheet.css">
                     <children>
-                        <Icon content="DASHBOARD" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="32.0" stylesheets="@styleSheet.css" >
+                        <Icon content="DASHBOARD" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="32.0" stylesheets="@styleSheet.css">
                             <padding>
                                 <Insets left="10.0" />
                             </padding>
@@ -66,7 +65,7 @@
                 </HBox>
                 <HBox layoutX="20.0" layoutY="130.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0" styleClass="btns" stylesheets="@styleSheet.css">
                     <children>
-                        <Icon content="LIST" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="32.0" stylesheets="@styleSheet.css" >
+                        <Icon content="LIST" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="32.0" stylesheets="@styleSheet.css">
                             <padding>
                                 <Insets left="10.0" />
                             </padding>
@@ -86,7 +85,7 @@
                 </HBox>
                 <HBox layoutX="20.0" layoutY="130.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0" styleClass="btns" stylesheets="@styleSheet.css">
                     <children>
-                        <Icon content="PERSON" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="32.0" stylesheets="@styleSheet.css" >
+                        <Icon content="PERSON" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="32.0" stylesheets="@styleSheet.css">
                             <padding>
                                 <Insets left="10.0" />
                             </padding>
@@ -106,7 +105,7 @@
                 </HBox>
                 <HBox layoutX="20.0" layoutY="130.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0" styleClass="btns" stylesheets="@styleSheet.css">
                     <children>
-                        <Icon content="FILTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="32.0" stylesheets="@styleSheet.css" >
+                        <Icon content="FILTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="32.0" stylesheets="@styleSheet.css">
                             <padding>
                                 <Insets left="10.0" />
                             </padding>
@@ -127,7 +126,7 @@
                 </HBox>
                 <HBox layoutX="20.0" layoutY="130.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0" styleClass="btns" stylesheets="@styleSheet.css">
                     <children>
-                        <Icon content="FOLDER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="32.0" >
+                        <Icon content="FOLDER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="32.0">
                             <padding>
                                 <Insets left="10.0" />
                             </padding>
@@ -247,7 +246,7 @@
         </VBox>
         <VBox layoutX="314.0" prefHeight="600.0" prefWidth="742.0" stylesheets="@styleSheet.css">
          <children>
-            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="739.0" style="-fx-background-color: #fff;">
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="741.0" style="-fx-background-color: #fff;">
                <effect>
                   <DropShadow blurType="ONE_PASS_BOX" height="10.0" radius="4.5" width="10.0" />
                </effect>
